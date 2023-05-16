@@ -1,7 +1,7 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-color: green;
+    background-color: #78f183;
     background-size: cover;
     background-position: center;
 }
@@ -24,30 +24,45 @@ body{
 }
 
 .navbar{
-    width: 85%;
+    width: 100%;
     margin: auto;
     padding: 35px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #ffe183;
 }
 
 .navbar ul{
     flex: 1;
     text-align: right;
+    padding-right: 7.5%;
 }
 
 .navbar ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    margin: 5px;
     position: relative;
+}
+.navbar ul li a:hover{
+    background-color: #00c0ff;
+    color: #ffe183;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
 }
 
 .navbar ul li a{
     text-decoration: none;
-    color:white;
+    color:#00e6ff;
     text-transform: uppercase;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 20px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
 }
 
 .menu-container{
@@ -57,4 +72,12 @@ body{
     max-width: 100%;
     flex-wrap: wrap;
     z-index: 1;
+}
+
+#Baslik{
+    color: #00c0ff;
+    font-size: 30px;
+    display: flex;
+    margin-left: 7.5%;
+    text-decoration: none;
 }
