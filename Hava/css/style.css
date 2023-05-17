@@ -1,7 +1,7 @@
 .banner{
     width: 100%;
     height: 100%;
-    background-color: #00f3ff;
+    background-color: #445b9c;
     background-size: cover;
     background-position: center;
 }
@@ -10,10 +10,6 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-}
-
-body{
-    background-color: bisque;
 }
 
 .container{
@@ -30,7 +26,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #009dff;
+    background-color: #162849;
 }
 
 .navbar ul{
@@ -46,8 +42,8 @@ body{
     position: relative;
 }
 .navbar ul li a:hover{
-    background-color: #00c3ff;
-    color: #86ffff;
+    background-color: #8095fa;
+    color: #162849;
     transition-property: background-color;
     transition-duration: 1s;
     transition-timing-function: linear;
@@ -55,7 +51,7 @@ body{
 
 .navbar ul li a{
     text-decoration: none;
-    color:#86ffff;
+    color:#cad4ff;
     text-transform: uppercase;
     cursor: pointer;
     font-size: 20px;
@@ -75,7 +71,7 @@ body{
 }
 
 #Baslik{
-    color: #86ffff;
+    color: #cad4ff;
     font-size: 30px;
     display: flex;
     margin-left: 7.5%;
