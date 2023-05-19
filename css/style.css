@@ -196,3 +196,34 @@ h3{
 .yazi{
     width: 300px;
 }
+p{
+    color: #78f183;
+}
+
+li{
+    color: #78f183;
+    list-style: none;
+    font-size: 25px;
+}
+.hakkimizda{
+    background-color: #445b9c;
+    padding: 5%;
+    width: 500px;
+    margin: 5%;
+    margin-left: 0%;
+    border-radius: 50px;
+    
+}
+.hakkimizda>h3{
+    margin-top: 0%;
+    margin-right: 0px;
+    width: 500px;
+    display: inline-block;
+    color: #78f183;
+}
+.hakkimizda>p{
+    margin-top: 1%;
+    width: 500px;
+    display: inline-block;
+}
+
