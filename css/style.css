@@ -227,3 +227,36 @@ li{
     display: inline-block;
 }
 
+
+#name{
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 1rem;
+}
+
+#surname{
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 1rem;
+}
+
+#email{
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 1rem;
+}
+
+.box1{
+    position: relative;
+    left: 5px;
+    top: 50px;
+}
+
+.box2{
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
