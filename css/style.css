@@ -11,14 +11,9 @@
     padding: 0;
     font-family: sans-serif;
 }
+
 body{
     background-color: #78f183;
-}
-.container{
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
 }
 
 .navbar{
@@ -63,7 +58,7 @@ body{
     transition-timing-function: linear;
 }
 
-.menu-container{
+.container{
     position: relative;
     display: flex;
     align-items: center;
@@ -79,14 +74,17 @@ body{
     margin-left: 7.5%;
     text-decoration: none;
 }
+
 h3{
     font-size: 30px;
     color: #00c0ff;
     margin-top: 6%;
 }
+
 .icerik{
     margin-left: 10%;
 }
+
 .card{
     width: 400px;
     height: 500px;
@@ -97,6 +95,7 @@ h3{
     display: inline-block;
     margin-right: 8%;
 }
+
 .sirket{
     margin-top: 3%;
     padding: 5%;
@@ -107,21 +106,26 @@ h3{
     transition-duration: 0.3s;
     transition-timing-function: linear;
 }
+
 .sirket:hover{
     box-shadow: 20px 0px 10px #2d6a02;
     transition-property: box-shadow;
     transition-duration: 0.5s;
     transition-timing-function: linear;
 }
+
 #EkoEnerji{
     background-color: #ff9f08;
 }
+
 #YesilDamlalar{
     background-color: #147184;
 }
+
 #TemizNefes{
     background-color: #445b9c;
 }
+
 .yazi>h5{
     font-size: 20px;
     margin-top: 2%;
@@ -180,39 +184,48 @@ li{
     display: inline-block;
 }
 
-
 #name{
-    width: 200px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    width: 400px;
     height: 40px;
     font-size: 25px;
-    border-radius: 1rem;
-}
-
-#surname{
-    width: 200px;
-    height: 40px;
-    font-size: 25px;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
 }
 
 #email{
-    width: 200px;
+    width: 400px;
     height: 40px;
     font-size: 25px;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
+}
+
+#mesaj{
+    width: 900px;
+    height: 200px;
+    font-size: 25px;
+    border-radius: 0.5rem;
 }
 
 .box1{
     position: relative;
-    left: 5px;
+    left: 25px;
     top: 50px;
+    width: 200px;
 }
 
 .box2{
     position: relative;
-    left: 150px;
-    top: 20px;
+    left: 200px;
+    top: 50px;
+    float: left;
 }
+
+.hr{
+    width: 200px;
+    border-color: black;
+}
+
 footer{
     background-color: #76777c;
     padding: 10%;
