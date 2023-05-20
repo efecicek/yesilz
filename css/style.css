@@ -184,7 +184,29 @@ li{
     display: inline-block;
 }
 
+#tel{
+    position: relative;
+    left: -225px;
+    top: 50px;
+    opacity: 0;
+}
+
+#adres{
+    position: relative;
+    left: -225px;
+    top: 50px;
+    opacity: 0;
+}
+
+#email1{
+    position: relative;
+    left: -225px;
+    top: 50px;
+    opacity: 0;
+}
+
 #name{
+    padding-left: 10px;
     margin-right: 5px;
     margin-bottom: 10px;
     width: 400px;
@@ -194,6 +216,7 @@ li{
 }
 
 #email{
+    padding-left: 10px;
     width: 400px;
     height: 40px;
     font-size: 25px;
@@ -201,6 +224,7 @@ li{
 }
 
 #mesaj{
+    padding-left: 10px;
     width: 900px;
     height: 200px;
     font-size: 25px;
