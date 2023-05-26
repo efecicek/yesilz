@@ -90,17 +90,6 @@ h3{
     margin-left: 10%;
 }
 
-.card{
-    width: 400px;
-    height: 500px;
-    background-color: #2d6a02;
-    border-radius: 50px;
-    box-shadow: 10px 0px 3px rgb(42, 41, 41);
-    margin-top: 3%;
-    display: inline-block;
-    margin-right: 8%;
-}
-
 .sirket{
     margin-top: 3%;
     padding: 5%;
@@ -110,6 +99,7 @@ h3{
     transition-property: box-shadow;
     transition-duration: 0.3s;
     transition-timing-function: linear;
+    background-color: brown;
 }
 
 .sirket:hover{
@@ -118,7 +108,17 @@ h3{
     transition-duration: 0.5s;
     transition-timing-function: linear;
 }
-
+.yazi1{
+    width: 300px;
+}
+.yazi1>p{
+    color: #78f183;
+    margin-top: 1%;
+}
+.yazi1>h5{
+    font-size: 20px;
+    color: #78f183;
+}
 #EkoEnerji{
     background-color: #ff9f08;
 }
