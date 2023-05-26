@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test</title>
+    <script src="js/test.js"></script>
+</head>
+<body>
+    <h1>Test</h1>
+    <form name="quiz">
+        <h3>Soru 1</h3>
+        <input type="radio" name="q1" value="correct"> Doğru<br>
+        <input type="radio" name="q1" value="incorrect"> Yanlış<br>
+        <input type="radio" name="q1" value="incorrect"> Yanlış<br>
+        <input type="radio" name="q1" value="incorrect"> Yanlış<br>
+        <p id="result1"></p>
+        
+        <h3>Soru 2</h3>
+        <input type="radio" name="q2" value="correct"> Doğru<br>
+        <input type="radio" name="q2" value="incorrect"> Yanlış<br>
+        <input type="radio" name="q2" value="incorrect"> Yanlış<br>
+        <input type="radio" name="q2" value="incorrect"> Yanlış<br>
+        <p id="result2"></p>
+        
+        <br>
+        <input type="button" value="Sonuçları Göster" onclick="showResults()">
+    </form>
+    
+    <div id="results"></div>
+</body>
+</html>
