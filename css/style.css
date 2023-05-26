@@ -76,7 +76,7 @@ body{
     color: #00c0ff;
     font-size: 30px;
     display: flex;
-    margin-left: 7.5%;
+    margin-left: 4%;
     text-decoration: none;
 }
 
@@ -202,7 +202,9 @@ li{
     top: 50px;
     opacity: 0;
 }
-
+.navbar>a>img{
+    margin-left: 50%;
+}
 #email1{
     position: relative;
     left: -225px;
