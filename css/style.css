@@ -17,9 +17,11 @@ body{
 }
 .etkinlik{
     display: inline-block;
+    margin-top: 50px;
 }
 .sirketlerimiz{
     display: inline-block;
+    margin-top: 50px;
 }
 
 .navbar{
