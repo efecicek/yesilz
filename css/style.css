@@ -62,6 +62,7 @@ body{
 }
 
 .menu-container{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -90,21 +91,20 @@ h3{
 }
 
 .icerik{
-    margin-left: 10%;
-
+    display: flex;
+    justify-content: center;
+    display: block;
+    margin-top: 10%;
 }
 a{
     text-decoration: none;
-}
-a>.sirket{
-    display: block;
 }
 
 .sirket{
     margin-top: 3%;
     padding: 5%;
     margin-right: 4%;
-    display: inline-block;
+    display: block;
     width: fit-content;
     border-radius: 50px;
     transition-property: box-shadow;
@@ -177,7 +177,7 @@ img{
 }
 
 .yazi{
-    width: 300px;
+    width: 700px;
 }
 p{
     color: #78f183;
