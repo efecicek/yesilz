@@ -326,6 +326,8 @@ footer>.footer>p, footer>.footer>a{
 }
 .footer>.sosmed{
     margin-top: 1%;
+    margin-left: 15px;
+    display: inline-block;
 }
 .footer>.sosmed>a{
     margin-left: 1%;
