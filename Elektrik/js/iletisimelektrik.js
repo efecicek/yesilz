@@ -21,7 +21,7 @@ window.addEventListener('load',  e => {
 
 //telefon kısmı
 
-const myTimeout1 = setTimeout(wait2seconds1, 500);
+const myTimeout1 = setTimeout(wait2seconds1, 1000);
 
 function wait2seconds1() {
     var adres = document.getElementById("adres")
@@ -47,7 +47,7 @@ function wait2seconds1() {
 
 //adres kısmı
 
-const myTimeout2 = setTimeout(wait2seconds2, 3000);
+const myTimeout2 = setTimeout(wait2seconds2, 2000);
 
 function wait2seconds2() {
     var email1 = document.getElementById("email1")

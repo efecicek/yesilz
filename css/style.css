@@ -90,6 +90,13 @@ h3{
     margin-top: 6%;
 }
 
+.etkinlik{
+    position: relative;
+    left: 250px;
+    width: 1000px;
+    text-align: center;
+}
+
 .icerik{
     display: flex;
     justify-content: center;
@@ -101,12 +108,15 @@ a{
 }
 
 .sirket{
+    justify-content: center;
+    width: 700px;
+    height: 500px;
     margin-top: 3%;
-    padding: 5%;
     margin-right: 4%;
     display: block;
     width: fit-content;
     border-radius: 50px;
+<<<<<<< HEAD
     transition-property: box-shadow;
     transition-duration: 0.3s;
     transition-timing-function: linear;
@@ -118,27 +128,43 @@ a{
     margin-bottom: 15px;
     width: 100%;
     
+=======
+    background-color: rgb(26, 145, 26);
 }
 
-.sirket:hover{
-    box-shadow: 18px 10px 10px #2d6a02;
-    transition-property: box-shadow;
-    transition-duration: 0.3s;
-    transition-timing-function: linear;
+.sirket .foto{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+>>>>>>> befd534660babcdc483bb414e2dd2d6c6c3bf6ba
 }
+
+.sirket .foto img{
+    border-radius: 1rem;
+}
+<<<<<<< HEAD
 img{
     border-radius: 30px;
 }
 .yazi1{
     width: 700px;
+=======
+
+.yazi1{
+    position: relative;
+    left: 100px;
+    width: 500px;
+    text-align: center;
+>>>>>>> befd534660babcdc483bb414e2dd2d6c6c3bf6ba
 }
 .yazi1>p{
-    color: #78f183;
+    color: #8add91;
     margin-top: 1%;
 }
 .yazi1>h5{
     font-size: 20px;
-    color: #78f183;
+    color: #8add91;
 }
 #EkoEnerji{
     background-color: #ff9f08;
@@ -332,6 +358,8 @@ footer>.footer>p, footer>.footer>a{
 }
 .footer>.sosmed{
     margin-top: 1%;
+    display: inline-block;
+    margin-left: 15px;
 }
 .footer>.sosmed>a{
     margin-left: 1%;
