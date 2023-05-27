@@ -15,14 +15,6 @@
 body{
     background-color: #78f183;
 }
-.etkinlik{
-    display: inline-block;
-    margin-top: 50px;
-}
-.sirketlerimiz{
-    display: inline-block;
-    margin-top: 50px;
-}
 
 .navbar{
     width: 100%;
@@ -69,6 +61,51 @@ body{
     transition-timing-function: linear;
 }
 
+.iletisim-navbar{
+    width: 100%;
+    position: relative;
+    top: 0px;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffe183;
+}
+
+.iletisim-navbar ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 7.5%;
+}
+
+.iletisim-navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+}
+
+.iletisim-navbar ul li a:hover{
+    background-color: #00c0ff;
+    color: #ffe183;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.iletisim-navbar ul li a{
+    text-decoration: none;
+    color: #30A2FF;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 30px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
 .menu-container{
     display: flex;
     justify-content: center;
@@ -96,7 +133,6 @@ h3{
     font-size: 30px;
     color: #00c0ff;
     margin-top: 6%;
-    text-align: center;
 }
 
 .icerik{
@@ -108,23 +144,27 @@ h3{
 a{
     text-decoration: none;
 }
-.iletisim{
-    margin-top: 10%;
-    margin-left: 5%;
-}
 
-.sirket{
+.makale-box{
     margin-top: 3%;
     padding: 5%;
     margin-right: 4%;
     display: block;
     width: fit-content;
     border-radius: 50px;
-    transition-property: box-shadow;
-    transition-duration: 0.3s;
-    transition-timing-function: linear;
     background-color: #4ff55d;
     text-align: center;
+}
+
+.sirket-box{
+    margin-top: 3%;
+    padding: 5%;
+    margin-right: 4%;
+    display: block;
+    width: 400px;
+    height: 500px;
+    border-radius: 50px;
+    background-color: #4ff55d;
 }
 
 .foto{
@@ -146,6 +186,17 @@ img{
 .yazi1>h5{
     font-size: 20px;
     color: #358f3c;
+}
+.yazi2{
+    width: 400px;
+}
+.yazi2>p{
+    color: #16dd27;
+    margin-top: 1%;
+}
+.yazi2>h5{
+    font-size: 20px;
+    color: #16dd27;
 }
 #EkoEnerji{
     background-color: #ff9f08;
@@ -339,7 +390,7 @@ footer>.footer>p, footer>.footer>a{
 }
 .footer>.sosmed{
     margin-top: 1%;
-    margin-left: 15px;
+    margin-left: 20px;
     display: inline-block;
 }
 .footer>.sosmed>a{
@@ -347,4 +398,3 @@ footer>.footer>p, footer>.footer>a{
     color: rgb(33, 33, 33);
     text-decoration: none;
 }
-
