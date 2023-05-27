@@ -6,7 +6,7 @@ window.addEventListener('load',  e => {
             clearInterval(interval)
         }
     
-    },20)
+    },30)
 
     var telNumber = document.getElementById("tel")
     var x = -225
@@ -16,12 +16,12 @@ window.addEventListener('load',  e => {
         if (x >= 25) {
             clearInterval(interval)
         }
-    }, 30)
+    }, 40)
 })
 
 //telefon kısmı
 
-const myTimeout1 = setTimeout(wait2seconds1, 1000);
+const myTimeout1 = setTimeout(wait2seconds1, 500);
 
 function wait2seconds1() {
     var adres = document.getElementById("adres")
@@ -31,7 +31,7 @@ function wait2seconds1() {
             clearInterval(interval)
         }
         
-    },20)
+    },30)
 
     var adres = document.getElementById("adres")
     var y = -225
@@ -41,13 +41,13 @@ function wait2seconds1() {
         if (y >= 25) {
             clearInterval(interval)
         }
-    }, 30)
+    }, 40)
 }
 
 
 //adres kısmı
 
-const myTimeout2 = setTimeout(wait2seconds2, 2000);
+const myTimeout2 = setTimeout(wait2seconds2, 3000);
 
 function wait2seconds2() {
     var email1 = document.getElementById("email1")
@@ -57,7 +57,7 @@ function wait2seconds2() {
             clearInterval(interval)
         }
         
-    },20)
+    },30)
 
     var email1 = document.getElementById("email1")
     var z = -225
@@ -67,7 +67,7 @@ function wait2seconds2() {
         if (z >= 25) {
             clearInterval(interval)
         }
-    }, 30)
+    }, 40)
 }
 //email kısmı
 

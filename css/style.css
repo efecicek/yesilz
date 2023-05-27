@@ -193,6 +193,10 @@ li{
     display: inline-block;
 }
 
+.navbar>a>img{
+    margin-left: 50%;
+}
+
 #tel{
     position: relative;
     left: -225px;
@@ -206,9 +210,7 @@ li{
     top: 50px;
     opacity: 0;
 }
-.navbar>a>img{
-    margin-left: 50%;
-}
+
 #email1{
     position: relative;
     left: -225px;
@@ -256,6 +258,13 @@ li{
     float: left;
 }
 
+.haritalar{
+    position: relative;
+    left: 100px;
+    top: 75px;
+    float: left;
+}
+
 .submit-button{
     position: relative;
     top: 300px;
@@ -281,7 +290,7 @@ button:hover{
 
 footer{
     background-color: #76777c;
-    padding: 10%;
+    padding: 5%;
 }
 footer>.footer>h4{
     color: rgb(33, 33, 33);

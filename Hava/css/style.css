@@ -90,6 +90,9 @@ body{
 }
 .konu:hover{
     box-shadow: 20px 0px 10px #021538;
+    transition-property: box-shadow;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
 }
 .yazi{
     width: 300px;
