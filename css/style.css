@@ -121,7 +121,7 @@ a{
     transition-property: box-shadow;
     transition-duration: 0.3s;
     transition-timing-function: linear;
-    background-color: brown;
+    background-color: #4ff55d;
     text-align: center;
 }
 
@@ -131,12 +131,6 @@ a{
     
 }
 
-.sirket:hover{
-    box-shadow: 18px 10px 10px #2d6a02;
-    transition-property: box-shadow;
-    transition-duration: 0.3s;
-    transition-timing-function: linear;
-}
 img{
     border-radius: 30px;
 }
@@ -144,12 +138,12 @@ img{
     width: 700px;
 }
 .yazi1>p{
-    color: #78f183;
+    color: #2d7a33;
     margin-top: 1%;
 }
 .yazi1>h5{
     font-size: 20px;
-    color: #78f183;
+    color: #358f3c;
 }
 #EkoEnerji{
     background-color: #ff9f08;
