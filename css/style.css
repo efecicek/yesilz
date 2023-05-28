@@ -139,10 +139,45 @@ h3{
     display: flex;
     justify-content: center;
     display: block;
+    width: 1800px;
     margin-top: 10%;
 }
+
+.hamburger-menu{
+    position: fixed;
+    left: 300px;
+    top: 225px;
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+    height: 600px;
+    border-radius: 0.4rem;
+    background-color: #76ec80
+}
+.hamburger-menu ul li{
+    display: block;
+    padding: 8px 10px;
+    border-radius: 0.4rem;
+}
+.hamburger-menu ul li a{
+    color: black;
+    font-size: 15px;
+}
+.hamburger-menu ul li:hover{
+    background-color: #73e67d
+}
+
+
+
 a{
     text-decoration: none;
+}
+
+.etkinlik{
+    position: relative;
+    left: 500px;
+    justify-content: center;
+    width: 775px;
 }
 
 .makale-box{
