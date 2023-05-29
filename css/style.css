@@ -19,6 +19,7 @@ body{
 .navbar{
     width: 100%;
     position: fixed;
+    z-index: 1;
     top: 0px;
     margin: auto;
     padding: 35px 0;
@@ -146,6 +147,7 @@ h3{
 .hamburger-menu{
     position: fixed;
     left: 300px;
+    z-index: 0;
     top: 225px;
     text-align: center;
     justify-content: center;
@@ -176,6 +178,7 @@ a{
 .etkinlik{
     position: relative;
     left: 500px;
+    z-index: 0;
     justify-content: center;
     width: 775px;
 }
@@ -190,11 +193,14 @@ a{
     background-color: #4ff55d;
     text-align: center;
 }
+.sirketlerimiz{
+    padding-left: 30%;
+}
 
 .sirket-box{
     margin-top: 3%;
     padding: 5%;
-    margin-right: 4%;
+    text-align: center;
     display: block;
     width: 400px;
     height: 500px;
@@ -401,6 +407,8 @@ button:hover{
 footer{
     background-color: #76777c;
     padding: 5%;
+    position: relative;
+    z-index: 1;
 }
 footer>.footer>h4{
     color: rgb(33, 33, 33);
