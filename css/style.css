@@ -41,6 +41,14 @@ body{
     position: relative;
 }
 
+.navbar ul li button{
+    background-color: #00c0ff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    width: 150px;
+}
+
 .navbar ul li a:hover{
     background-color: #00c0ff;
     color: #ffe183;
@@ -135,6 +143,60 @@ h3{
     margin-top: 6%;
 }
 
+.Signİn-container{
+    text-align: center;
+}
+
+.Signİn-box{
+    position: relative;
+    top: 200px;
+    background-color: white;
+    justify-content: center;
+    width: 500px;
+    height: 700px;
+}
+
+.Signİn-baslik{
+    position: relative;
+    top: 50px;
+    justify-content: center;
+}
+
+.Signİn-baslik h2{
+    color: #180db4;
+    font-size: 25px;
+}
+
+.Signİn-box button{
+    position: relative;
+    top: 100px;
+    display: inline-block;
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 0.5rem;
+    background-color: #07064d;
+}
+
+.Signİn-box button p{
+    font-size: 20px;
+    color: white;
+}
+
+.Signİn-box input{
+    background-color: rgb(197, 197, 197);
+    position: relative;
+    top: 100px;
+    left: 50px;
+    margin-bottom: 30px;
+    display: block;
+    width: 300px;
+    height: 40px;
+    font-size: 25px;
+    padding-left: 10px;
+    border-radius: 0.4rem;
+}
+
 .icerik{
     display: flex;
     justify-content: center;
@@ -164,7 +226,7 @@ h3{
     font-size: 15px;
 }
 .hamburger-menu ul li:hover{
-    background-color: #73e67d
+    background-color: #78fd78
 }
 
 
