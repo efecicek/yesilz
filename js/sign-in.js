@@ -11,6 +11,8 @@ var email = SignİnEmail.value
 var password = SignİnPassword.value
 
 SignUpButton.addEventListener('click',  e => {
+    SignİnEmail.value = ""
+    SignİnPassword.value = ""
     LoginButton.style.display = "none"
     SignUpButton2.style.display = "inline-block"
     Signİnİsim.style.display = "block"

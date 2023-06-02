@@ -17,22 +17,16 @@ body{
 }
 
 .navbar{
-    width: 100%;
     position: fixed;
     z-index: 1;
     top: 0px;
+    width: 100%;
     margin: auto;
     padding: 35px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #ffe183;
-}
-
-.navbar ul{
-    flex: 1;
-    text-align: right;
-    padding-right: 7.5%;
 }
 
 .navbar ul li{
@@ -40,40 +34,42 @@ body{
     display: inline-block;
     margin: 5px;
     position: relative;
-}
-
-.navbar ul li button{
-    background-color: #00c0ff;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 20px;
-    width: 150px;
-}
-
-.navbar ul li a:hover{
-    background-color: #00c0ff;
-    color: #ffe183;
-    transition-property: background-color;
-    transition-duration: 1s;
-    transition-timing-function: linear;
+    padding-right: 2%;
 }
 
 .navbar ul li a{
-    text-decoration: none;
     color: #30A2FF;
+    text-decoration: none;
     text-transform: uppercase;
-    cursor: pointer;
-    font-size: 20px;
-    padding: 30px;
-    transition-property: background-color;
-    transition-duration: 0.5s;
-    transition-timing-function: linear;
+    font-size: 23px;
+}
+
+.navbar ul li::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.navbar ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 3%;
 }
 
 .iletisim-navbar{
-    width: 100%;
     position: relative;
+    z-index: 1;
     top: 0px;
+    width: 100%;
     margin: auto;
     padding: 35px 0;
     display: flex;
@@ -82,37 +78,40 @@ body{
     background-color: #ffe183;
 }
 
-.iletisim-navbar ul{
-    flex: 1;
-    text-align: right;
-    padding-right: 7.5%;
-}
-
 .iletisim-navbar ul li{
     list-style: none;
     display: inline-block;
     margin: 5px;
     position: relative;
-}
-
-.iletisim-navbar ul li a:hover{
-    background-color: #00c0ff;
-    color: #ffe183;
-    transition-property: background-color;
-    transition-duration: 1s;
-    transition-timing-function: linear;
+    padding-right: 2%;
 }
 
 .iletisim-navbar ul li a{
-    text-decoration: none;
     color: #30A2FF;
+    text-decoration: none;
     text-transform: uppercase;
-    cursor: pointer;
-    font-size: 20px;
-    padding: 30px;
-    transition-property: background-color;
-    transition-duration: 0.5s;
-    transition-timing-function: linear;
+    font-size: 23px;
+}
+
+.iletisim-navbar ul li::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.iletisim-navbar ul li:hover::after{
+    width: 100%;
+}
+
+.iletisim-navbar ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 3%;
 }
 
 .menu-container{
@@ -495,8 +494,8 @@ footer>.footer>p, footer>.footer>a{
 }
 .footer{
     display: inline-block;
-    margin-left: 5%;
-    margin-top: 5%;
+    margin-left: 3%;
+    margin-top: 3%;
 }
 #footer-ilk{
     display: block;
