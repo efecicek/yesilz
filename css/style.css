@@ -269,6 +269,8 @@ a{
 
 .sirketlerimiz{
     padding-left: 30%;
+    margin-top: 38%;
+    padding-bottom: 5%;
 }
 
 .sirket-box{
@@ -361,10 +363,15 @@ li{
     list-style: none;
     font-size: 25px;
 }
+.icerik-hakkimizda{
+    padding-left: 37%;
+    padding-right: 37%;
+}
 .hakkimizda{
     background-color: #445b9c;
     padding: 5%;
     width: 500px;
+    text-align: center;
     margin: 5%;
     margin-left: 0%;
     border-radius: 50px;
