@@ -128,6 +128,44 @@ body{
     z-index: 1;
 }
 
+.hakkımızda-container{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: #78f183;
+}
+
+.about-icerik{
+    max-width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+.hakkimizda-box{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-top: 3%;
+    padding: 2%;
+    margin-right: 4%;
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #8a978d;
+    text-align: center;
+}
+
+.about-text{
+    position: relative;
+    width: fit-content;
+    height: 300px;
+    text-align: center;
+}
+
+.about-text p{
+    color: #009688;
+    font-size: 20px;
+}
+
 #Baslik{
     color: #00c0ff;
     font-size: 30px;
@@ -144,6 +182,7 @@ h3{
 
 .Signİn-container{
     text-align: center;
+    justify-content: center;
 }
 
 .Signİn-box{
