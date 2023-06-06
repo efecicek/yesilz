@@ -153,6 +153,9 @@ body{
     background-color: #8a978d;
     text-align: center;
 }
+.hakkimizda>p, .hakkimizda>h1{
+color: ;
+}
 
 .about-text{
     position: relative;
@@ -161,10 +164,6 @@ body{
     text-align: center;
 }
 
-.about-text p{
-    color: #009688;
-    font-size: 20px;
-}
 
 #Baslik{
     color: #00c0ff;
