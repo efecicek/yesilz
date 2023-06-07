@@ -269,14 +269,8 @@ a{
 }
 
 .makale-box{
-<<<<<<< HEAD
    margin-top: 3%;  
    padding: 5%;
-=======
-    position: relative;
-    margin-top: 3%;
-    padding: 5%;
->>>>>>> 4ae0c5a7636a2404eb0b3045c8ba2d45479675b6
     margin-right: 4%;
     display: inline-block;
     width: fit-content;
@@ -547,21 +541,4 @@ footer>.footer>p, footer>.footer>a{
     margin-left: 1%;
     color: rgb(33, 33, 33);
     text-decoration: none;
-}
-.hakkımızda_2{
-    position: center;
-    top: 200px;
-    background-color: rgb(8, 121, 38);
-    justify-content: center;
-    width: 500px;
-    height: 700px;
-    color: #16dd27;
-    text-align: center;
-    margin-top: 3%;  
-    padding: 5%;
-     margin-right: 4%;
-     display: block;
-     width: fit-content;
-     border-radius: 50px;
-     text-align: center;
 }
