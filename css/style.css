@@ -1,7 +1,6 @@
 .banner{
     width: 100%;
     height: 100%;
-    padding-bottom: 3%; 
     background-size: cover;
     background-position: center;
 }
@@ -211,18 +210,19 @@ h3{
 }
 
 .icerik{
-    display: flex;
     justify-content: center;
     display: block;
     width: 1800px;
-    margin-top: 10%;
+    margin-top: -22%;
 }
 
 .hamburger-menu{
-    position: fixed;
-    left: 300px;
-    z-index: 0;
+    position: sticky;
     top: 225px;
+    margin-left: 175px;
+    margin-bottom: 20px;
+    display: inline-block;
+    z-index: 0;
     text-align: center;
     justify-content: center;
     width: 200px;
@@ -243,8 +243,6 @@ h3{
     background-color: #78fd78
 }
 
-
-
 a{
     text-decoration: none;
 }
@@ -258,15 +256,22 @@ a{
 }
 
 .makale-box{
+<<<<<<< HEAD
    margin-top: 3%;  
    padding: 5%;
+=======
+    position: relative;
+    margin-top: 3%;
+    padding: 5%;
+>>>>>>> 4ae0c5a7636a2404eb0b3045c8ba2d45479675b6
     margin-right: 4%;
-    display: block;
+    display: inline-block;
     width: fit-content;
     border-radius: 50px;
     background-color: #4ff55d;
     text-align: center;
 }
+
 .sirketlerimiz{
     padding-left: 30%;
 }
@@ -387,6 +392,10 @@ li{
     margin-left: 50%;
 }
 
+.iletisim-navbar>a>img{
+    margin-left: 50%;
+}
+
 #tel{
     position: relative;
     left: -225px;
@@ -450,8 +459,8 @@ li{
 
 .haritalar{
     position: relative;
-    left: 100px;
     top: 75px;
+    padding-left: 75px;
     float: left;
 }
 
