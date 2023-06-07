@@ -128,6 +128,16 @@ body{
     z-index: 1;
 }
 
+.hakkimizda-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
 #Baslik{
     color: #00c0ff;
     font-size: 30px;
@@ -144,6 +154,7 @@ h3{
 
 .Signİn-container{
     text-align: center;
+    justify-content: center;
 }
 
 .Signİn-box{
@@ -274,6 +285,8 @@ a{
 
 .sirketlerimiz{
     padding-left: 30%;
+    margin-top: 38%;
+    padding-bottom: 5%;
 }
 
 .sirket-box{
@@ -357,35 +370,44 @@ img{
 .yazi{
     width: 700px;
 }
-p{
-    color: #78f183;
-}
 
 li{
     color: #78f183;
     list-style: none;
     font-size: 25px;
 }
-.hakkimizda{
-    background-color: #445b9c;
-    padding: 5%;
-    width: 500px;
-    margin: 5%;
-    margin-left: 0%;
-    border-radius: 50px;
+.icerik-hakkimizda{
+    justify-content: center;
+    width: 1000px;
+}
+.aboutus-box1, .aboutus-box2{
+    display: flex;
+    justify-content: center;
+}
+.aboutus-box2{
+    margin-top: 50px;
+}
+.hakkimizda-misyon, .hakkimizda-vizyon{
+    background-color: #8a978d;
+    width: 400px;
+    height: 400px;
+    padding: 3%;
+    text-align: center;
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    border-radius: 25px;
     
 }
-.hakkimizda>h3{
-    margin-top: 0%;
-    margin-right: 0px;
-    width: 500px;
-    display: inline-block;
-    color: #78f183;
+.hakkimizda-text{
+    width: 800px;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
 }
-.hakkimizda>p{
-    margin-top: 1%;
-    width: 500px;
-    display: inline-block;
+.hakkimizda-text p{
+    color: white;
 }
 
 .navbar>a>img{
