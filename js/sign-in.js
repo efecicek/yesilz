@@ -5,6 +5,8 @@ var SignİnButton = document.getElementById("SignİnButton")
 var SignUpButton = document.getElementById("SignUpButton")
 var SignUpButton2 = document.getElementById("SignUpButton2")
 var LoginButton = document.getElementById("LoginButton")
+var signupbutton3 = document.getElementById("signupbutton")
+var signupbuttonisim = document.getElementById("signupbuttonisim")
 
 var isim = Signİnİsim.value
 var email = SignİnEmail.value
@@ -38,6 +40,11 @@ SignUpButton2.addEventListener('click',  e => {
 LoginButton.addEventListener('click',  e => {
     if(email === SignİnEmail.value && password === SignİnPassword.value){
         alert("Hoşgeldiniz")
+        signupbuttonisim.innerHTML = isim
+        signupbuttonisim.style.color = "#30A2FF"
+        signupbuttonisim.style.textTransform = "uppercase"
+        signupbutton3.style.display = "none"
+        signupbuttonisim.style.display = "inline-block"
     }   else if(SignİnEmail.value !== "" && SignİnPassword.value !== ""){
         alert("gmail veya şifre hatalı")
     }

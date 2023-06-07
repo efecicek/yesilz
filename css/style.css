@@ -170,13 +170,13 @@ h3{
     border-radius: 25px;
 }
 
-.Signİn-baslik{
+#Signİn-baslik{
     position: relative;
     top: 50px;
     justify-content: center;
 }
 
-.Signİn-baslik h2{
+#Signİn-baslik h2{
     color: #180db4;
     font-size: 25px;
 }
@@ -203,6 +203,10 @@ h3{
     position: relative;
     top: 50px;
     width: 400px;
+}
+
+#signupbuttonisim{
+    display: none;
 }
 
 .Signİn-box button p{
