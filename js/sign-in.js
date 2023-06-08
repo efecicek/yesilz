@@ -17,7 +17,7 @@ SignUpButton.addEventListener('click',  e => {
     SignİnPassword.value = ""
     LoginButton.style.display = "none"
     SignUpButton2.style.display = "inline-block"
-    Signİnİsim.style.display = "block"
+    Signİnİsim.style.display = "inline-block"
 })
 
 SignİnButton.addEventListener('click',  e => {
