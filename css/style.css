@@ -157,7 +157,6 @@ h3{
     text-align: center;
     justify-content: center;
 }
-
 .Signİn-box{
     position: relative;
     top: 200px;
@@ -247,14 +246,14 @@ h3{
     border-radius: 0.4rem;
     background-color: #76ec80
 }
-.hamburger-menu ul li{
+.hamburger-menu ul a li{
     display: block;
     padding: 8px 10px;
     border-radius: 0.4rem;
 }
-.hamburger-menu ul li a{
-    color: black;
-    font-size: 15px;
+.hamburger-menu ul a li{
+    color: #147184;
+    font-size: 30px;
 }
 .hamburger-menu ul li:hover{
     background-color: #78fd78
@@ -299,6 +298,7 @@ a{
     border-radius: 50px;
     background-color: #4ff55d;
 }
+
 
 .foto{
     margin-bottom: 15px;
