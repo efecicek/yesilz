@@ -402,14 +402,23 @@ li{
     color:#16dd27 ;
     font-size: 20px;
 }
+.hakkimizda-misyon h3, .hakkimizda-vizyon h3{
+    color: rgb(20, 70, 23);
+}
+.hakkimizda-misyon p, .hakkimizda-vizyon p{
+    color: rgb(139, 230, 147);
+}
 .hakkimizda-text{
     width: 100%;
     height: 200px;
     justify-content: center;
     text-align: center;
 }
+.hakkimizda-text h3{
+    color: rgb(20, 70, 23);
+}
 .hakkimizda-text p{
-    color: rgb(14, 104, 18);
+    color: rgb(20, 70, 23);
     font-size: 25px
 }
 
