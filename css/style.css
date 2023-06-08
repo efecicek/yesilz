@@ -250,10 +250,11 @@ h3{
     display: block;
     padding: 8px 10px;
     border-radius: 0.4rem;
+    margin-bottom: 10px;
 }
 .hamburger-menu ul a li{
-    color: #147184;
-    font-size: 30px;
+    color: black;
+    font-size: 23px;
 }
 .hamburger-menu ul li:hover{
     background-color: #78fd78
