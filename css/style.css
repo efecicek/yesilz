@@ -332,6 +332,17 @@ img{
     font-size: 20px;
     color: #16dd27;
 }
+.yazi3{
+    width: 400px;
+}
+.yazi3>p{
+    color: #e2f1a9;
+    margin-top: 1%;
+}
+.yazi3>h5{
+    font-size: 20px;
+    color: #e9f547;
+}
 #EkoEnerji{
     background-color: #ff9f08;
 }
