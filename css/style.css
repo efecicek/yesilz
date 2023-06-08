@@ -421,7 +421,34 @@ li{
     color: rgb(20, 70, 23);
     font-size: 25px
 }
-
+#bagis{
+    padding-top: 25%;
+    text-align: center;
+    margin-left: 27%;
+}
+.kutu{
+    margin-top: 10%;
+    padding-bottom: 10%;
+}
+.kutu .yazi>p{
+    color: #55eedf;
+}
+#bagis>a{
+    display: block;
+    width: fit-content;
+    border-radius: 20%;
+}
+#bagis-navbar{
+    z-index: 2;
+    position: fixed;
+}
+.bagis{
+    background-color: #2d7a33;
+    width: fit-content;
+    margin-top: 5%;
+    border-radius: 20%;
+    padding: 10%;
+}
 .navbar>a>img{
     margin-left: 50%;
 }
