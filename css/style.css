@@ -413,18 +413,6 @@ li{
     font-size: 25px
 }
 
-.bagis-box{
-    position: relative;
-    width: 300px;
-    height: 300px;
-    display: inline-block;
-    margin: 50px;
-}
-.bagis-box img{
-    width: 300px;
-    height: 300px;
-}
-
 .navbar>a>img{
     margin-left: 50%;
 }
