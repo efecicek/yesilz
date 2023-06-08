@@ -2,75 +2,92 @@
 <html>
 <head>
     <title>Test</title>
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/test.js"></script>
 </head>
 <body>
-    <h1>Test</h1>
-    <form name="quiz">
-        <h3>İklim krizi şimdiki gibi devam ederse kutup ayılarının nesli kaç yıl içinde tükenecektir?</h3>
-        <input type="radio" name="q1" value="incorrect"> 70<br>
-        <input type="radio" name="q1" value="correct"> 80<br>
-        <input type="radio" name="q1" value="incorrect"> 100<br>
-        <input type="radio" name="q1" value="incorrect"> 50<br>
-        
-        <h3>Sence habitat bozulması, kentleşme ve toksik pestisit kullanımına bağlı olarak son 50 yılda Kuzey Amerika'daki kuş oranı kaç milyar azalmıştır?</h3>
-        <input type="radio" name="q2" value="correct"> 3 milyar<br>
-        <input type="radio" name="q2" value="incorrect"> 2 milyar<br>
-        <input type="radio" name="q2" value="incorrect"> 4 milyar<br>
-        <input type="radio" name="q2" value="incorrect"> 3.5 milyar<br>
-
-        <h3>WWF’nin yayımladığı Enerji Raporu’na göre, kaç yılına geldiğimizde küresel enerji ihtiyacının neredeyse tamamının yenilenebilir enerji kaynaklarından sağlanması mümkündür?</h3>
-        <input type="radio" name="q3" value="correct"> 2050<br>
-        <input type="radio" name="q3" value="incorrect"> 2060<br>
-        <input type="radio" name="q3" value="incorrect"> 2075<br>
-        <input type="radio" name="q3" value="incorrect"> 2040<br>
-
-        <h3>Yıllık toplam ve kişi başına düşen karbondioksit salınımı en çok hangi ülkededir? </h3>
-        <input type="radio" name="q4" value="correct"> Çin<br>
-        <input type="radio" name="q4" value="incorrect"> ABD<br>
-        <input type="radio" name="q4" value="incorrect"> Hindistan<br>
-        <input type="radio" name="q4" value="incorrect"> Rusya<br>
-
-        <h3>İklim krizi böyle devam ederse Kuzey Kutbu ilk kez kaç yılında buzsuz bir yaz geçirebilir?</h3>
-        <input type="radio" name="q5" value="correct"> 2040<br>
-        <input type="radio" name="q5" value="incorrect"> 2045<br>
-        <input type="radio" name="q5" value="incorrect"> 2050<br>
-        <input type="radio" name="q5" value="incorrect"> 2055<br>
-
-        <h3>BM Mülteciler Yüksek Komiserliği (UNHCR), 2050 yılında dünya çapında yaklaşık kaç milyon insanın yer değiştirmek zorunda kalacağı uyarısında bulundu?</h3>
-        <input type="radio" name="q6" value="correct"> 250<br>
-        <input type="radio" name="q6" value="incorrect"> 300<br>
-        <input type="radio" name="q6" value="incorrect"> 100<br>
-        <input type="radio" name="q6" value="incorrect"> 350<br>
-
-        <h3>Uzunca banyo yapmak yerine duş alarak ortalama kaç litre suyu kurtarmış olursunuz?</h3>
-        <input type="radio" name="q7" value="correct"> 130 L<br>
-        <input type="radio" name="q7" value="incorrect"> 170 L<br>
-        <input type="radio" name="q7" value="incorrect"> 80 L<br>
-        <input type="radio" name="q7" value="incorrect"> 50 L<br>
-
-        <h3>Peki ampullerinizi enerji verimi yüksek ampullerle değiştirirseniz yılda kaç kg karbondioksit salınımını engellemiş olursunuz?</h3>
-        <input type="radio" name="q8" value="correct"> 20 kg<br>
-        <input type="radio" name="q8" value="incorrect"> 30 kg<br>
-        <input type="radio" name="q8" value="incorrect"> 35 kg<br>
-        <input type="radio" name="q8" value="incorrect"> 25 kg<br>
-
-        <h3>Karbon salınımına neden olan enerji tüketiminin yüzde kaçı ise ısıtma ve soğutma için kullanıldığında ortaya çıkmaktadır?</h3>
-        <input type="radio" name="q9" value="correct"> %80<br>
-        <input type="radio" name="q9" value="incorrect"> %20<br>
-        <input type="radio" name="q9" value="incorrect"> %30<br>
-        <input type="radio" name="q9" value="incorrect"> %50<br>
-
-        <h3>Yukarıdaki sorudan hareketle Türkiye'deki evlerin yüzde kaçı ısı yalıtımına sahiptir?</h3>
-        <input type="radio" name="q10" value="correct"> %20<br>
-        <input type="radio" name="q10" value="incorrect"> %30<br>
-        <input type="radio" name="q10" value="incorrect"> %40<br>
-        <input type="radio" name="q10" value="incorrect"> %50<br>
-        
-        <br>
-        <input type="button" value="Sonuçları Göster" onclick="showResults()">
-    </form>
+    <div class="banner">
+        <div class="navbar">
+            <a href="anasayfa.html"><img src="img/Yeşilİz-Logo.jpg" alt="Yeşilİz" width="100px"></a> 
+            <a  id="Baslik" href="anasayfa.html"><h1>Yeşilİz</h1></a> 
+            <ul id="navbar">
+                <li><a href="anasayfa.html">Anasayfa</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+                <li><a href="bagis.html">Bağış</a></li>
+                <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                <li><a href="sirketlerimiz.html">Şirketlerimiz</a></li>
+                <li id="signupbutton"><a href="Signİn.html">Sign-Up</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="test">
+        <h1>Test</h1>
+        <form name="quiz">
+            <h3>İklim krizi şimdiki gibi devam ederse kutup ayılarının nesli kaç yıl içinde tükenecektir?</h3>
+            <input type="radio" name="q1" value="incorrect"> 70<br>
+            <input type="radio" name="q1" value="correct"> 80<br>
+            <input type="radio" name="q1" value="incorrect"> 100<br>
+            <input type="radio" name="q1" value="incorrect"> 50<br>
+            
+            <h3>Sence habitat bozulması, kentleşme ve toksik pestisit kullanımına bağlı olarak son 50 yılda Kuzey Amerika'daki kuş oranı kaç milyar azalmıştır?</h3>
+            <input type="radio" name="q2" value="correct"> 3 milyar<br>
+            <input type="radio" name="q2" value="incorrect"> 2 milyar<br>
+            <input type="radio" name="q2" value="incorrect"> 4 milyar<br>
+            <input type="radio" name="q2" value="incorrect"> 3.5 milyar<br>
     
-    <div id="results"></div>
+            <h3>WWF’nin yayımladığı Enerji Raporu’na göre, kaç yılına geldiğimizde küresel enerji ihtiyacının neredeyse tamamının yenilenebilir enerji kaynaklarından sağlanması mümkündür?</h3>
+            <input type="radio" name="q3" value="correct"> 2050<br>
+            <input type="radio" name="q3" value="incorrect"> 2060<br>
+            <input type="radio" name="q3" value="incorrect"> 2075<br>
+            <input type="radio" name="q3" value="incorrect"> 2040<br>
+    
+            <h3>Yıllık toplam ve kişi başına düşen karbondioksit salınımı en çok hangi ülkededir? </h3>
+            <input type="radio" name="q4" value="correct"> Çin<br>
+            <input type="radio" name="q4" value="incorrect"> ABD<br>
+            <input type="radio" name="q4" value="incorrect"> Hindistan<br>
+            <input type="radio" name="q4" value="incorrect"> Rusya<br>
+    
+            <h3>İklim krizi böyle devam ederse Kuzey Kutbu ilk kez kaç yılında buzsuz bir yaz geçirebilir?</h3>
+            <input type="radio" name="q5" value="correct"> 2040<br>
+            <input type="radio" name="q5" value="incorrect"> 2045<br>
+            <input type="radio" name="q5" value="incorrect"> 2050<br>
+            <input type="radio" name="q5" value="incorrect"> 2055<br>
+    
+            <h3>BM Mülteciler Yüksek Komiserliği (UNHCR), 2050 yılında dünya çapında yaklaşık kaç milyon insanın yer değiştirmek zorunda kalacağı uyarısında bulundu?</h3>
+            <input type="radio" name="q6" value="correct"> 250<br>
+            <input type="radio" name="q6" value="incorrect"> 300<br>
+            <input type="radio" name="q6" value="incorrect"> 100<br>
+            <input type="radio" name="q6" value="incorrect"> 350<br>
+    
+            <h3>Uzunca banyo yapmak yerine duş alarak ortalama kaç litre suyu kurtarmış olursunuz?</h3>
+            <input type="radio" name="q7" value="correct"> 130 L<br>
+            <input type="radio" name="q7" value="incorrect"> 170 L<br>
+            <input type="radio" name="q7" value="incorrect"> 80 L<br>
+            <input type="radio" name="q7" value="incorrect"> 50 L<br>
+    
+            <h3>Peki ampullerinizi enerji verimi yüksek ampullerle değiştirirseniz yılda kaç kg karbondioksit salınımını engellemiş olursunuz?</h3>
+            <input type="radio" name="q8" value="correct"> 20 kg<br>
+            <input type="radio" name="q8" value="incorrect"> 30 kg<br>
+            <input type="radio" name="q8" value="incorrect"> 35 kg<br>
+            <input type="radio" name="q8" value="incorrect"> 25 kg<br>
+    
+            <h3>Karbon salınımına neden olan enerji tüketiminin yüzde kaçı ise ısıtma ve soğutma için kullanıldığında ortaya çıkmaktadır?</h3>
+            <input type="radio" name="q9" value="correct"> %80<br>
+            <input type="radio" name="q9" value="incorrect"> %20<br>
+            <input type="radio" name="q9" value="incorrect"> %30<br>
+            <input type="radio" name="q9" value="incorrect"> %50<br>
+    
+            <h3>Yukarıdaki sorudan hareketle Türkiye'deki evlerin yüzde kaçı ısı yalıtımına sahiptir?</h3>
+            <input type="radio" name="q10" value="correct"> %20<br>
+            <input type="radio" name="q10" value="incorrect"> %30<br>
+            <input type="radio" name="q10" value="incorrect"> %40<br>
+            <input type="radio" name="q10" value="incorrect"> %50<br>
+            
+            <br>
+            <input type="button" value="Sonuçları Göster" onclick="showResults()">
+        </form>
+        
+        <div id="results"></div>
+    </div>
 </body>
 </html>
