@@ -300,11 +300,18 @@ a{
     background-color: #4ff55d;
 }
 
-
+.bagis{
+    width: 500px;
+    height: 500px;
+}
 .foto{
+    display: inline-block;
     margin-bottom: 15px;
     width: 100%;
-    
+}
+.foto img{
+    width: 600px;
+    height: 600px;
 }
 
 img{
