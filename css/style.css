@@ -305,7 +305,12 @@ a{
     width: 500px;
     height: 500px;
 }
-
+.bagis-icerik{
+    width: 100%;
+}
+.kutu{
+    width: 100%;
+}
 
 img{
     border-radius: 30px;
@@ -468,9 +473,9 @@ form>p{
     margin-right: 100px;
 }
 #bagis{
-    padding-top: 25%;
+    padding-top: 10%;
     text-align: center;
-    margin-left: 27%;
+    margin-left: 30%;
 }
 .kutu{
     margin-top: 10%;
@@ -542,7 +547,7 @@ form>p{
 }
 .rewardbutton{
     position: relative;
-    left: 750px;
+    margin-left: 43%;
     margin-top: 100px;
 }
 #reward-button{
