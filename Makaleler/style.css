@@ -16,10 +16,16 @@ p{
     margin-bottom: 1.5%;
     font-size: 18px;
 }
+.navbar{
+    z-index: 2;
+}
 article{
     background-color: #445b9c;
     border-radius: 3%;
-    margin-top: 5%;
+    margin-top: 40%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    z-index: 1;
     padding: 5%;
     width: 80%;
 }
