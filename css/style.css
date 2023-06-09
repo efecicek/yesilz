@@ -433,7 +433,33 @@ li{
     font-size: 25px
 }
 .test{
-    margin-top: 20%;
+    margin-top: 10%;
+    text-align: center;
+}
+.test h3{
+    font-size: 25px;
+}
+input{
+    margin-top: 5%;
+}
+form{
+    padding-bottom: 5%;
+}
+.test>h1{
+    color: #180db4;
+    font-size: 50px;
+}
+#results>p{
+    font-size:50px;
+    color: rgb(210, 12, 200);
+}
+#results{
+    padding-bottom: 5%;
+}
+form>p{
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 200px;
 }
 #bagis{
     padding-top: 25%;
