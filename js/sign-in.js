@@ -7,6 +7,8 @@ var SignUpButton2 = document.getElementById("SignUpButton2")
 var LoginButton = document.getElementById("LoginButton")
 var signupbutton3 = document.getElementById("signupbutton")
 var signupbuttonisim = document.getElementById("signupbuttonisim")
+var signup = document.getElementById("signup")
+var signin = document.getElementById("signin")
 
 var isim = Signİnİsim.value
 var email = SignİnEmail.value
@@ -16,6 +18,8 @@ SignUpButton.addEventListener('click',  e => {
     SignİnEmail.value = ""
     SignİnPassword.value = ""
     LoginButton.style.display = "none"
+    signin.style.display = "none"
+    signup.style.display = "inline-block"
     SignUpButton2.style.display = "inline-block"
     Signİnİsim.style.display = "inline-block"
 })
@@ -25,6 +29,8 @@ SignİnButton.addEventListener('click',  e => {
     SignİnEmail.value = ""
     SignİnPassword.value = ""
     SignUpButton2.style.display = "none"
+    signin.style.display = "inline-block"
+    signup.style.display = "none"
     LoginButton.style.display = "inline-block"
     Signİnİsim.style.display = "none"
 })
