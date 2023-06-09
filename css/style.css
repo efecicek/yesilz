@@ -182,7 +182,7 @@ h3{
 
 .Signİn-box button{
     position: relative;
-    top: 300px;
+    top: 275px;
     display: inline-block;
     width: 200px;
     height: 50px;
@@ -207,7 +207,9 @@ h3{
 #signupbuttonisim{
     display: none;
 }
-
+#signin{
+    display: none;
+}
 .Signİn-box button p{
     font-size: 20px;
     color: white;
@@ -215,7 +217,7 @@ h3{
 
 .Signİn-box input{
     position: relative;
-    top: 100px;
+    top: 70px;
     margin-bottom: 30px;
     width: 300px;
     height: 40px;
@@ -223,6 +225,9 @@ h3{
     padding-left: 10px;
     border-radius: 0.4rem;
     background-color: rgb(197, 197, 197);
+}
+#Signİnİsim{
+    top: 70px;
 }
 
 .icerik{
@@ -461,7 +466,7 @@ form{
     font-size: 22px;
 }
 #results>p{
-    font-size:40px;
+    font-size:30px;
     color: rgb(210, 12, 200);
 }
 #results{
