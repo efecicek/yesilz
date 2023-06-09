@@ -449,8 +449,14 @@ form{
     color: #180db4;
     font-size: 50px;
 }
+.test h3{
+    color: #047aa1;
+}
+.test p{
+    font-size: 22px;
+}
 #results>p{
-    font-size:50px;
+    font-size:40px;
     color: rgb(210, 12, 200);
 }
 #results{
@@ -459,7 +465,7 @@ form{
 form>p{
     display: inline-block;
     font-size: 20px;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 #bagis{
     padding-top: 25%;
