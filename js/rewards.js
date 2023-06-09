@@ -4,22 +4,46 @@ var reward2 = document.getElementById("reward-2")
 var reward3 = document.getElementById("reward-3")
 var reward4 = document.getElementById("reward-4")
 var rewardbutton = document.getElementById("reward-button")
+var a = 0
+var b = 0
+var c = 0
+var d = 0
 
 reward1.addEventListener('click', e =>{
-    alert("Tebrikler 1 ağaç bağışlama hakkı kazandınız.")
-    treeNumber += 1
+    if(a == 0){
+        alert("Tebrikler 1 ağaç bağışlama hakkı kazandınız.")
+        treeNumber += 1
+        a += 1
+    }   else{
+        alert("Bu ödülü zaten aldınız.")
+    }
 })
 reward2.addEventListener('click', e =>{
-    alert("Tebrikler 3 ağaç bağışlama hakkı kazandınız.")
-    treeNumber += 3
+    if(b == 0){
+        alert("Tebrikler 3 ağaç bağışlama hakkı kazandınız.")
+        treeNumber += 3
+        b += 1
+    }   else{
+        alert("Bu ödülü zaten aldınız.")
+    }
 })
 reward3.addEventListener('click', e =>{
-    alert("Tebrikler 7 ağaç bağışlama hakkı kazandınız.")
-    treeNumber += 7
+    if(c == 0){
+        alert("Tebrikler 7 ağaç bağışlama hakkı kazandınız.")
+        treeNumber += 7
+        c += 1
+    }   else{
+        alert("Bu ödülü zaten aldınız.")
+    }
 })
 reward4.addEventListener('click', e =>{
-    alert("Tebrikler 10 ağaç bağışlama hakkı kazandınız.")
-    treeNumber += 10
+    if(d == 0){
+        alert("Tebrikler 10 ağaç bağışlama hakkı kazandınız.")
+        treeNumber += 10
+        d += 1
+    }   else{
+        alert("Bu ödülü zaten aldınız.")
+    }
 })
 
 rewardbutton.addEventListener('click', e => {
